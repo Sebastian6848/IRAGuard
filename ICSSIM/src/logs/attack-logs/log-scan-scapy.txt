@@ -1,0 +1,3 @@
+# Found 2 in the network 192.168.0.1/24:
+IP:192.168.0.1 MAC:ba:93:c5:2e:e2:41
+IP:192.168.0.11 MAC:6e:52:3e:8f:d2:c9

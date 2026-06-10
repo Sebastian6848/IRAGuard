@@ -1,0 +1,881 @@
+2026-06-10 18:19:28,527 INFO operator_input=打开入水阀并关闭出水阀
+2026-06-10 18:19:35,776 INFO agent_token=好的
+2026-06-10 18:19:35,776 INFO agent_token=，
+2026-06-10 18:19:35,807 INFO agent_token=我先
+2026-06-10 18:19:35,807 INFO agent_token=读取
+2026-06-10 18:19:35,840 INFO agent_token=当前
+2026-06-10 18:19:35,877 INFO agent_token=所有
+2026-06-10 18:19:35,877 INFO agent_token=标签
+2026-06-10 18:19:35,910 INFO agent_token=的状态
+2026-06-10 18:19:35,910 INFO agent_token=，
+2026-06-10 18:19:35,910 INFO agent_token=了解
+2026-06-10 18:19:35,910 INFO agent_token=系统
+2026-06-10 18:19:35,911 INFO agent_token=情况
+2026-06-10 18:19:35,940 INFO agent_token=。
+2026-06-10 18:19:36,004 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 1, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:7add5728-1287-7372-8997-2b8c40466180', 'checkpoint_ns': 'model:7add5728-1287-7372-8997-2b8c40466180', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_all_tags', 'args': '', 'id': 'call_00_wqmc1AjCmTKq0CzXMClN6183', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:36,063 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 1, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:7add5728-1287-7372-8997-2b8c40466180', 'checkpoint_ns': 'model:7add5728-1287-7372-8997-2b8c40466180', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:36,093 INFO tool_result name=read_all_tags tool_call_id=call_00_wqmc1AjCmTKq0CzXMClN6183 content=Current ICSSIM tag values:
+- tank_input_valve_status: 1.0
+- tank_input_valve_mode: 3.0
+- tank_level_value: 6.7466
+- tank_level_min: 3.0
+- tank_level_max: 7.0
+- tank_output_valve_status: 1.0
+- tank_output_valve_mode: 3.0
+- tank_output_flow_value: 0.0001
+- conveyor_belt_engine_status: 0.0
+- conveyor_belt_engine_mode: 3.0
+- bottle_level_value: 0.6533
+- bottle_level_max: 1.8
+- bottle_distance_to_filler_value: 1.0
+2026-06-10 18:19:45,494 INFO agent_token=好的
+2026-06-10 18:19:45,495 INFO agent_token=！
+2026-06-10 18:19:45,495 INFO agent_token=我已
+2026-06-10 18:19:45,496 INFO agent_token=读取
+2026-06-10 18:19:45,497 INFO agent_token=到
+2026-06-10 18:19:45,497 INFO agent_token=当前
+2026-06-10 18:19:45,497 INFO agent_token=系统
+2026-06-10 18:19:45,498 INFO agent_token=状态
+2026-06-10 18:19:45,498 INFO agent_token=：
+
+
+2026-06-10 18:19:45,499 INFO agent_token=-
+2026-06-10 18:19:45,499 INFO agent_token= **
+2026-06-10 18:19:45,500 INFO agent_token=入
+2026-06-10 18:19:45,500 INFO agent_token=水
+2026-06-10 18:19:45,500 INFO agent_token=阀
+2026-06-10 18:19:45,501 INFO agent_token=**
+2026-06-10 18:19:45,501 INFO agent_token=：
+2026-06-10 18:19:45,502 INFO agent_token=当前
+2026-06-10 18:19:45,502 INFO agent_token=状态
+2026-06-10 18:19:45,503 INFO agent_token=为
+2026-06-10 18:19:45,503 INFO agent_token=**
+2026-06-10 18:19:45,503 INFO agent_token=开启
+2026-06-10 18:19:45,503 INFO agent_token=**
+2026-06-10 18:19:45,503 INFO agent_token=（
+2026-06-10 18:19:45,503 INFO agent_token=status
+2026-06-10 18:19:45,503 INFO agent_token=:
+2026-06-10 18:19:45,503 INFO agent_token= 
+2026-06-10 18:19:45,503 INFO agent_token=1
+2026-06-10 18:19:45,503 INFO agent_token=.
+2026-06-10 18:19:45,503 INFO agent_token=0
+2026-06-10 18:19:45,503 INFO agent_token=），
+2026-06-10 18:19:45,503 INFO agent_token=模式
+2026-06-10 18:19:45,503 INFO agent_token=为
+2026-06-10 18:19:45,504 INFO agent_token=自动
+2026-06-10 18:19:45,504 INFO agent_token=PLC
+2026-06-10 18:19:45,504 INFO agent_token=控制
+2026-06-10 18:19:45,504 INFO agent_token=（
+2026-06-10 18:19:45,504 INFO agent_token=mode
+2026-06-10 18:19:45,504 INFO agent_token=:
+2026-06-10 18:19:45,504 INFO agent_token= 
+2026-06-10 18:19:45,504 INFO agent_token=3
+2026-06-10 18:19:45,504 INFO agent_token=.
+2026-06-10 18:19:45,504 INFO agent_token=0
+2026-06-10 18:19:45,504 INFO agent_token=）
+
+2026-06-10 18:19:45,504 INFO agent_token=-
+2026-06-10 18:19:45,504 INFO agent_token= **
+2026-06-10 18:19:45,505 INFO agent_token=出水
+2026-06-10 18:19:45,505 INFO agent_token=阀
+2026-06-10 18:19:45,505 INFO agent_token=**
+2026-06-10 18:19:45,505 INFO agent_token=：
+2026-06-10 18:19:45,505 INFO agent_token=当前
+2026-06-10 18:19:45,505 INFO agent_token=状态
+2026-06-10 18:19:45,505 INFO agent_token=也为
+2026-06-10 18:19:45,507 INFO agent_token=**
+2026-06-10 18:19:45,508 INFO agent_token=开启
+2026-06-10 18:19:45,508 INFO agent_token=**
+2026-06-10 18:19:45,508 INFO agent_token=（
+2026-06-10 18:19:45,508 INFO agent_token=status
+2026-06-10 18:19:45,508 INFO agent_token=:
+2026-06-10 18:19:45,508 INFO agent_token= 
+2026-06-10 18:19:45,508 INFO agent_token=1
+2026-06-10 18:19:45,509 INFO agent_token=.
+2026-06-10 18:19:45,509 INFO agent_token=0
+2026-06-10 18:19:45,509 INFO agent_token=），
+2026-06-10 18:19:45,509 INFO agent_token=模式
+2026-06-10 18:19:45,509 INFO agent_token=为
+2026-06-10 18:19:45,509 INFO agent_token=自动
+2026-06-10 18:19:45,509 INFO agent_token=PLC
+2026-06-10 18:19:45,509 INFO agent_token=控制
+2026-06-10 18:19:45,509 INFO agent_token=（
+2026-06-10 18:19:45,509 INFO agent_token=mode
+2026-06-10 18:19:45,513 INFO agent_token=:
+2026-06-10 18:19:45,513 INFO agent_token= 
+2026-06-10 18:19:45,513 INFO agent_token=3
+2026-06-10 18:19:45,513 INFO agent_token=.
+2026-06-10 18:19:45,513 INFO agent_token=0
+2026-06-10 18:19:45,513 INFO agent_token=）
+
+
+2026-06-10 18:19:45,514 INFO agent_token=现在
+2026-06-10 18:19:45,514 INFO agent_token=我来
+2026-06-10 18:19:45,527 INFO agent_token=执行
+2026-06-10 18:19:45,528 INFO agent_token=操作
+2026-06-10 18:19:45,529 INFO agent_token=：
+
+2026-06-10 18:19:45,529 INFO agent_token=1
+2026-06-10 18:19:45,530 INFO agent_token=.
+2026-06-10 18:19:45,530 INFO agent_token= 
+2026-06-10 18:19:45,531 INFO agent_token=将
+2026-06-10 18:19:45,531 INFO agent_token=入
+2026-06-10 18:19:45,532 INFO agent_token=水
+2026-06-10 18:19:45,532 INFO agent_token=阀
+2026-06-10 18:19:45,533 INFO agent_token=设置为
+2026-06-10 18:19:45,533 INFO agent_token=**
+2026-06-10 18:19:45,534 INFO agent_token=强制
+2026-06-10 18:19:45,535 INFO agent_token=开启
+2026-06-10 18:19:45,535 INFO agent_token=（
+2026-06-10 18:19:45,536 INFO agent_token=Force
+2026-06-10 18:19:45,537 INFO agent_token= ON
+2026-06-10 18:19:45,537 INFO agent_token=）
+2026-06-10 18:19:45,538 INFO agent_token=**
+2026-06-10 18:19:45,538 INFO agent_token=，
+2026-06-10 18:19:45,539 INFO agent_token=确保
+2026-06-10 18:19:45,539 INFO agent_token=其
+2026-06-10 18:19:45,539 INFO agent_token=打开
+2026-06-10 18:19:45,540 INFO agent_token=
+
+2026-06-10 18:19:45,540 INFO agent_token=2
+2026-06-10 18:19:45,540 INFO agent_token=.
+2026-06-10 18:19:45,541 INFO agent_token= 
+2026-06-10 18:19:45,542 INFO agent_token=将
+2026-06-10 18:19:45,542 INFO agent_token=出水
+2026-06-10 18:19:45,542 INFO agent_token=阀
+2026-06-10 18:19:45,543 INFO agent_token=设置为
+2026-06-10 18:19:45,544 INFO agent_token=**
+2026-06-10 18:19:45,544 INFO agent_token=强制
+2026-06-10 18:19:45,544 INFO agent_token=关闭
+2026-06-10 18:19:45,544 INFO agent_token=（
+2026-06-10 18:19:45,545 INFO agent_token=Force
+2026-06-10 18:19:45,546 INFO agent_token= OFF
+2026-06-10 18:19:45,546 INFO agent_token=）
+2026-06-10 18:19:45,546 INFO agent_token=**
+2026-06-10 18:19:45,546 INFO agent_token=，
+2026-06-10 18:19:45,546 INFO agent_token=确保
+2026-06-10 18:19:45,546 INFO agent_token=其
+2026-06-10 18:19:45,547 INFO agent_token=关闭
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'set_actuator_mode', 'args': '', 'id': 'call_00_44JSoq4rJZjGKw5k7lov8960', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_input', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ', ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '2', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'set_actuator_mode', 'args': '', 'id': 'call_01_qnAzOLAZ8ljHq51SPany9855', 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_output', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_mode', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ', ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'mode', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '1', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,547 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 3, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'checkpoint_ns': 'model:3443df39-2634-392a-483e-e3204e885896', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:19:45,556 INFO tool_result name=set_actuator_mode tool_call_id=call_01_qnAzOLAZ8ljHq51SPany9855 content=IRAGuard REJECT_PHYSICAL: physical state observation failed: OBSERVE_FAILED: missing value for tank_input_valve_status
+2026-06-10 18:20:14,301 INFO tool_result name=set_actuator_mode tool_call_id=call_00_44JSoq4rJZjGKw5k7lov8960 content=IRAGuard REJECT_PHYSICAL: physical state observation failed: OBSERVE_FAILED: missing value for tank_input_valve_status
+2026-06-10 18:20:16,126 INFO agent_token=看起来
+2026-06-10 18:20:16,196 INFO agent_token=系统
+2026-06-10 18:20:16,197 INFO agent_token=需要
+2026-06-10 18:20:16,302 INFO agent_token=重新
+2026-06-10 18:20:16,302 INFO agent_token=获取
+2026-06-10 18:20:16,302 INFO agent_token=传感器
+2026-06-10 18:20:16,308 INFO agent_token=状态
+2026-06-10 18:20:16,308 INFO agent_token=。
+2026-06-10 18:20:16,308 INFO agent_token=我先
+2026-06-10 18:20:16,308 INFO agent_token=重新
+2026-06-10 18:20:16,523 INFO agent_token=读取
+2026-06-10 18:20:16,523 INFO agent_token=一下
+2026-06-10 18:20:16,524 INFO agent_token=相关
+2026-06-10 18:20:16,524 INFO agent_token=标签
+2026-06-10 18:20:16,524 INFO agent_token=的最新
+2026-06-10 18:20:16,524 INFO agent_token=值
+2026-06-10 18:20:16,525 INFO agent_token=。
+2026-06-10 18:20:16,634 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_tag', 'args': '', 'id': 'call_00_XF2zA5TFrIR0AHqrkZYb9214', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,636 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,636 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,636 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,636 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,743 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,743 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,743 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,744 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,744 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_input', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,745 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,745 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,745 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_status', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,745 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,756 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,952 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_tag', 'args': '', 'id': 'call_01_OaYB87HJfOubKU7f7hd97077', 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,954 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,954 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,954 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,954 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,954 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,959 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,959 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,959 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:16,959 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_output', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:17,066 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:17,066 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:17,066 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_status', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:17,067 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:17,067 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 5, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'checkpoint_ns': 'model:4c4192d5-f2ff-6eef-0ea6-c3a168d5df47', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:17,071 INFO tool_result name=read_tag tool_call_id=call_01_OaYB87HJfOubKU7f7hd97077 content=ERROR: Failed to read tag 'tank_output_valve_status'.
+2026-06-10 18:20:17,071 INFO tool_result name=read_tag tool_call_id=call_00_XF2zA5TFrIR0AHqrkZYb9214 content=ERROR: Failed to read tag 'tank_input_valve_status'.
+2026-06-10 18:20:18,738 INFO agent_token=看起来
+2026-06-10 18:20:18,738 INFO agent_token=有些
+2026-06-10 18:20:18,764 INFO agent_token=标签
+2026-06-10 18:20:18,764 INFO agent_token=暂时
+2026-06-10 18:20:18,812 INFO agent_token=无法
+2026-06-10 18:20:18,813 INFO agent_token=读取
+2026-06-10 18:20:18,813 INFO agent_token=。
+2026-06-10 18:20:18,847 INFO agent_token=让我
+2026-06-10 18:20:18,847 INFO agent_token=先
+2026-06-10 18:20:18,847 INFO agent_token=列出
+2026-06-10 18:20:18,847 INFO agent_token=所有
+2026-06-10 18:20:18,847 INFO agent_token=可
+2026-06-10 18:20:18,885 INFO agent_token=用的
+2026-06-10 18:20:18,885 INFO agent_token=标签
+2026-06-10 18:20:18,885 INFO agent_token=，
+2026-06-10 18:20:18,927 INFO agent_token=确认
+2026-06-10 18:20:18,927 INFO agent_token=当前
+2026-06-10 18:20:18,927 INFO agent_token=系统的
+2026-06-10 18:20:18,976 INFO agent_token=完整
+2026-06-10 18:20:19,001 INFO agent_token=情况
+2026-06-10 18:20:19,053 INFO agent_token=。
+2026-06-10 18:20:19,160 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 7, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:88f55339-0a0e-b8c3-5390-f4835648a637', 'checkpoint_ns': 'model:88f55339-0a0e-b8c3-5390-f4835648a637', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'list_all_tags', 'args': '', 'id': 'call_00_5IBOFMD1IrhsnNTG8OXo1399', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:19,186 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 7, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:88f55339-0a0e-b8c3-5390-f4835648a637', 'checkpoint_ns': 'model:88f55339-0a0e-b8c3-5390-f4835648a637', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:19,261 INFO tool_result name=list_all_tags tool_call_id=call_00_5IBOFMD1IrhsnNTG8OXo1399 content=Available ICSSIM tags:
+- tank_input_valve_status: plc=1, type=output
+- tank_input_valve_mode: plc=1, type=output
+- tank_level_value: plc=1, type=input
+- tank_level_min: plc=1, type=output
+- tank_level_max: plc=1, type=output
+- tank_output_valve_status: plc=1, type=output
+- tank_output_valve_mode: plc=1, type=output
+- tank_output_flow_value: plc=1, type=input
+- conveyor_belt_engine_status: plc=2, type=output
+- conveyor_belt_engine_mode: plc=2, type=output
+- bottle_level_value: plc=2, type=input
+- bottle_level_max: plc=2, type=output
+- bottle_distance_to_filler_value: plc=2, type=input
+2026-06-10 18:20:20,534 INFO agent_token=好的
+2026-06-10 18:20:20,572 INFO agent_token=，
+2026-06-10 18:20:20,573 INFO agent_token=标签
+2026-06-10 18:20:20,573 INFO agent_token=列表
+2026-06-10 18:20:20,573 INFO agent_token=是
+2026-06-10 18:20:20,629 INFO agent_token=正常的
+2026-06-10 18:20:20,629 INFO agent_token=。
+2026-06-10 18:20:20,629 INFO agent_token=让我
+2026-06-10 18:20:20,629 INFO agent_token=再次
+2026-06-10 18:20:20,651 INFO agent_token=尝试
+2026-06-10 18:20:20,651 INFO agent_token=读取
+2026-06-10 18:20:20,651 INFO agent_token=所有
+2026-06-10 18:20:20,651 INFO agent_token=标签
+2026-06-10 18:20:20,651 INFO agent_token=的
+2026-06-10 18:20:20,766 INFO agent_token=当前
+2026-06-10 18:20:20,766 INFO agent_token=值
+2026-06-10 18:20:20,767 INFO agent_token=。
+2026-06-10 18:20:20,851 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 9, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ac8052a7-377a-03dc-9ac9-67327d5e1129', 'checkpoint_ns': 'model:ac8052a7-377a-03dc-9ac9-67327d5e1129', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_all_tags', 'args': '', 'id': 'call_00_5QnKOWorswANWf3FdRt25282', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:20,852 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 9, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ac8052a7-377a-03dc-9ac9-67327d5e1129', 'checkpoint_ns': 'model:ac8052a7-377a-03dc-9ac9-67327d5e1129', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:20,903 INFO tool_result name=read_all_tags tool_call_id=call_00_5QnKOWorswANWf3FdRt25282 content=Current ICSSIM tag values:
+- tank_input_valve_status: 0.0
+- tank_input_valve_mode: 3.0
+- tank_level_value: 6.0666
+- tank_level_min: 3.0
+- tank_level_max: 7.0
+- tank_output_valve_status: 1.0
+- tank_output_valve_mode: 3.0
+- tank_output_flow_value: 0.0001
+- conveyor_belt_engine_status: 0.0
+- conveyor_belt_engine_mode: 3.0
+- bottle_level_value: 1.6933
+- bottle_level_max: 1.8
+- bottle_distance_to_filler_value: 0.0
+2026-06-10 18:20:36,385 INFO agent_token=现在
+2026-06-10 18:20:36,386 INFO agent_token=看到了
+2026-06-10 18:20:36,386 INFO agent_token=最新
+2026-06-10 18:20:36,386 INFO agent_token=状态
+2026-06-10 18:20:36,387 INFO agent_token=：
+
+
+2026-06-10 18:20:36,387 INFO agent_token=-
+2026-06-10 18:20:36,388 INFO agent_token= **
+2026-06-10 18:20:36,388 INFO agent_token=入
+2026-06-10 18:20:36,389 INFO agent_token=水
+2026-06-10 18:20:36,390 INFO agent_token=阀
+2026-06-10 18:20:36,390 INFO agent_token=**
+2026-06-10 18:20:36,390 INFO agent_token=：
+2026-06-10 18:20:36,391 INFO agent_token=当前
+2026-06-10 18:20:36,391 INFO agent_token=状态
+2026-06-10 18:20:36,392 INFO agent_token=为
+2026-06-10 18:20:36,392 INFO agent_token=**
+2026-06-10 18:20:36,392 INFO agent_token=关闭
+2026-06-10 18:20:36,392 INFO agent_token=**
+2026-06-10 18:20:36,392 INFO agent_token=（
+2026-06-10 18:20:36,392 INFO agent_token=status
+2026-06-10 18:20:36,392 INFO agent_token=:
+2026-06-10 18:20:36,392 INFO agent_token= 
+2026-06-10 18:20:36,392 INFO agent_token=0
+2026-06-10 18:20:36,392 INFO agent_token=.
+2026-06-10 18:20:36,392 INFO agent_token=0
+2026-06-10 18:20:36,393 INFO agent_token=），
+2026-06-10 18:20:36,393 INFO agent_token=模式
+2026-06-10 18:20:36,393 INFO agent_token=为
+2026-06-10 18:20:36,393 INFO agent_token=自动
+2026-06-10 18:20:36,393 INFO agent_token=（
+2026-06-10 18:20:36,393 INFO agent_token=mode
+2026-06-10 18:20:36,393 INFO agent_token=:
+2026-06-10 18:20:36,393 INFO agent_token= 
+2026-06-10 18:20:36,393 INFO agent_token=3
+2026-06-10 18:20:36,393 INFO agent_token=.
+2026-06-10 18:20:36,393 INFO agent_token=0
+2026-06-10 18:20:36,393 INFO agent_token=）
+
+2026-06-10 18:20:36,393 INFO agent_token=-
+2026-06-10 18:20:36,393 INFO agent_token= **
+2026-06-10 18:20:36,393 INFO agent_token=出水
+2026-06-10 18:20:36,393 INFO agent_token=阀
+2026-06-10 18:20:36,394 INFO agent_token=**
+2026-06-10 18:20:36,394 INFO agent_token=：
+2026-06-10 18:20:36,394 INFO agent_token=当前
+2026-06-10 18:20:36,394 INFO agent_token=状态
+2026-06-10 18:20:36,394 INFO agent_token=为
+2026-06-10 18:20:36,394 INFO agent_token=**
+2026-06-10 18:20:36,394 INFO agent_token=开启
+2026-06-10 18:20:36,394 INFO agent_token=**
+2026-06-10 18:20:36,394 INFO agent_token=（
+2026-06-10 18:20:36,394 INFO agent_token=status
+2026-06-10 18:20:36,394 INFO agent_token=:
+2026-06-10 18:20:36,394 INFO agent_token= 
+2026-06-10 18:20:36,394 INFO agent_token=1
+2026-06-10 18:20:36,494 INFO agent_token=.
+2026-06-10 18:20:36,494 INFO agent_token=0
+2026-06-10 18:20:36,495 INFO agent_token=），
+2026-06-10 18:20:36,495 INFO agent_token=模式
+2026-06-10 18:20:36,496 INFO agent_token=为
+2026-06-10 18:20:36,496 INFO agent_token=自动
+2026-06-10 18:20:36,496 INFO agent_token=（
+2026-06-10 18:20:36,497 INFO agent_token=mode
+2026-06-10 18:20:36,498 INFO agent_token=:
+2026-06-10 18:20:36,499 INFO agent_token= 
+2026-06-10 18:20:36,499 INFO agent_token=3
+2026-06-10 18:20:36,500 INFO agent_token=.
+2026-06-10 18:20:36,500 INFO agent_token=0
+2026-06-10 18:20:36,500 INFO agent_token=）
+
+
+2026-06-10 18:20:36,501 INFO agent_token=现在
+2026-06-10 18:20:36,501 INFO agent_token=执行
+2026-06-10 18:20:36,502 INFO agent_token=操作
+2026-06-10 18:20:36,502 INFO agent_token=：
+2026-06-10 18:20:36,504 INFO agent_token=强制
+2026-06-10 18:20:36,505 INFO agent_token=打开
+2026-06-10 18:20:36,505 INFO agent_token=入
+2026-06-10 18:20:36,505 INFO agent_token=水
+2026-06-10 18:20:36,505 INFO agent_token=阀
+2026-06-10 18:20:36,506 INFO agent_token=，
+2026-06-10 18:20:36,507 INFO agent_token=强制
+2026-06-10 18:20:36,507 INFO agent_token=关闭
+2026-06-10 18:20:36,507 INFO agent_token=出水
+2026-06-10 18:20:36,507 INFO agent_token=阀
+2026-06-10 18:20:36,508 INFO agent_token=。
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'set_actuator_mode', 'args': '', 'id': 'call_00_L3JWMY9It6pWgzFDvxK60355', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_input', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ', ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '2', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'set_actuator_mode', 'args': '', 'id': 'call_01_WHW7ZEBtaIMs1jgWNnas9007', 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_output', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_mode', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ', ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'mode', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '1', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,508 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 11, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'checkpoint_ns': 'model:9dbe878d-eba5-1645-1df1-070205eb428d', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 1, 'type': 'tool_call_chunk'}]
+2026-06-10 18:20:36,518 INFO tool_result name=set_actuator_mode tool_call_id=call_01_WHW7ZEBtaIMs1jgWNnas9007 content=IRAGuard REJECT_PHYSICAL: physical state observation failed: OBSERVE_FAILED: missing value for tank_input_valve_status
+2026-06-10 18:21:05,405 INFO tool_result name=set_actuator_mode tool_call_id=call_00_L3JWMY9It6pWgzFDvxK60355 content=IRAGuard REJECT_PHYSICAL: physical state observation failed: OBSERVE_FAILED: missing value for tank_input_valve_status
+2026-06-10 18:21:07,100 INFO agent_token=看起来
+2026-06-10 18:21:07,100 INFO agent_token=系统
+2026-06-10 18:21:07,177 INFO agent_token=需要
+2026-06-10 18:21:07,177 INFO agent_token=先
+2026-06-10 18:21:07,177 INFO agent_token=读取
+2026-06-10 18:21:07,178 INFO agent_token=某些
+2026-06-10 18:21:07,222 INFO agent_token=传感器的
+2026-06-10 18:21:07,222 INFO agent_token=物理
+2026-06-10 18:21:07,334 INFO agent_token=状态
+2026-06-10 18:21:07,349 INFO agent_token=。
+2026-06-10 18:21:07,350 INFO agent_token=让我
+2026-06-10 18:21:07,350 INFO agent_token=先
+2026-06-10 18:21:07,350 INFO agent_token=单独
+2026-06-10 18:21:07,350 INFO agent_token=读取
+2026-06-10 18:21:07,359 INFO agent_token=入
+2026-06-10 18:21:07,495 INFO agent_token=水
+2026-06-10 18:21:07,495 INFO agent_token=阀
+2026-06-10 18:21:07,495 INFO agent_token=的状态
+2026-06-10 18:21:07,495 INFO agent_token=。
+2026-06-10 18:21:07,506 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_tag', 'args': '', 'id': 'call_00_kStkt1SUWI4Db1J7oDFQ8950', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,506 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,506 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,653 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,653 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,654 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,654 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,654 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_input', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_status', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,655 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 13, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'checkpoint_ns': 'model:ad02138c-5cc1-d353-26ea-fd48dfd52796', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:07,761 INFO tool_result name=read_tag tool_call_id=call_00_kStkt1SUWI4Db1J7oDFQ8950 content=tank_input_valve_status = 0.0
+2026-06-10 18:21:08,991 INFO agent_token=好的
+2026-06-10 18:21:09,028 INFO agent_token=，
+2026-06-10 18:21:09,028 INFO agent_token=读取
+2026-06-10 18:21:09,028 INFO agent_token=成功了
+2026-06-10 18:21:09,062 INFO agent_token=。
+2026-06-10 18:21:09,062 INFO agent_token=现在
+2026-06-10 18:21:09,062 INFO agent_token=我先
+2026-06-10 18:21:09,097 INFO agent_token=设置
+2026-06-10 18:21:09,143 INFO agent_token=入
+2026-06-10 18:21:09,144 INFO agent_token=水
+2026-06-10 18:21:09,144 INFO agent_token=阀
+2026-06-10 18:21:09,144 INFO agent_token=为
+2026-06-10 18:21:09,179 INFO agent_token=强制
+2026-06-10 18:21:09,179 INFO agent_token=开启
+2026-06-10 18:21:09,179 INFO agent_token=。
+2026-06-10 18:21:09,311 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'set_actuator_mode', 'args': '', 'id': 'call_00_Fb3EyFZDxEslltEk78ce2580', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,343 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,344 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,344 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,344 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,344 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,480 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,480 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,480 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,480 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_input', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,521 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,522 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,522 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,522 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,522 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ', ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,522 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,529 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,529 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,529 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,559 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '2', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,585 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 15, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'checkpoint_ns': 'model:c3598a36-7b1c-05c7-fa4d-9693c623068e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:09,624 INFO tool_result name=set_actuator_mode tool_call_id=call_00_Fb3EyFZDxEslltEk78ce2580 content=OK
+2026-06-10 18:21:10,907 INFO agent_token=入
+2026-06-10 18:21:10,907 INFO agent_token=水
+2026-06-10 18:21:10,907 INFO agent_token=阀
+2026-06-10 18:21:10,907 INFO agent_token=已
+2026-06-10 18:21:10,944 INFO agent_token=成功
+2026-06-10 18:21:10,944 INFO agent_token=设置为
+2026-06-10 18:21:10,944 INFO agent_token=强制
+2026-06-10 18:21:10,944 INFO agent_token=开启
+2026-06-10 18:21:10,971 INFO agent_token=！
+2026-06-10 18:21:10,972 INFO agent_token=现在
+2026-06-10 18:21:10,972 INFO agent_token=来
+2026-06-10 18:21:10,972 INFO agent_token=关闭
+2026-06-10 18:21:10,972 INFO agent_token=出水
+2026-06-10 18:21:10,972 INFO agent_token=阀
+2026-06-10 18:21:11,004 INFO agent_token=。
+2026-06-10 18:21:11,117 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_tag', 'args': '', 'id': 'call_00_J1VOGYpvpdyt3hHJ8Kng9473', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,117 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,117 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,167 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,167 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,167 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,167 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,221 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,222 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,222 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_output', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,222 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,222 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,222 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_status', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,245 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,245 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 17, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'checkpoint_ns': 'model:0e5bb164-56fd-ac65-8b9c-f6201fe3bc2e', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:11,312 INFO tool_result name=read_tag tool_call_id=call_00_J1VOGYpvpdyt3hHJ8Kng9473 content=tank_output_valve_status = 1.0
+2026-06-10 18:21:12,670 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'set_actuator_mode', 'args': '', 'id': 'call_00_cOKZ3aoX2Phhe3dbUXfS4397', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,670 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,670 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,719 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'tag', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,719 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,719 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,719 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,721 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 't', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,721 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'ank', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,721 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_output', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,721 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_val', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,721 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 've', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,721 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '_mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,766 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,798 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ', ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,798 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,798 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': 'mode', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,798 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '"', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,798 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': ': ', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,835 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '1', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,870 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 19, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'checkpoint_ns': 'model:0076f082-dcb4-b420-48d1-67b6a940b3de', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:12,969 INFO tool_result name=set_actuator_mode tool_call_id=call_00_cOKZ3aoX2Phhe3dbUXfS4397 content=OK
+2026-06-10 18:21:14,279 INFO agent_token=两个
+2026-06-10 18:21:14,281 INFO agent_token=操作
+2026-06-10 18:21:14,282 INFO agent_token=都
+2026-06-10 18:21:14,282 INFO agent_token=成功了
+2026-06-10 18:21:14,282 INFO agent_token=！
+2026-06-10 18:21:14,282 INFO agent_token=让我
+2026-06-10 18:21:14,282 INFO agent_token=读取
+2026-06-10 18:21:14,283 INFO agent_token=最终
+2026-06-10 18:21:14,283 INFO agent_token=状态
+2026-06-10 18:21:14,283 INFO agent_token=来
+2026-06-10 18:21:14,306 INFO agent_token=确认
+2026-06-10 18:21:14,306 INFO agent_token=一下
+2026-06-10 18:21:14,306 INFO agent_token=。
+2026-06-10 18:21:14,439 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 21, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:a3eb962a-1e33-0c86-0b51-174e1aa5884f', 'checkpoint_ns': 'model:a3eb962a-1e33-0c86-0b51-174e1aa5884f', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': 'read_all_tags', 'args': '', 'id': 'call_00_uraIkmuMgzRsSVrRB4Ia1726', 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:14,439 INFO tool_call_chunks metadata={'ls_integration': 'langchain_chat_model', 'thread_id': 'icssim-session-001', 'langgraph_step': 21, 'langgraph_node': 'model', 'langgraph_triggers': ('branch:to:model',), 'langgraph_path': ('__pregel_pull', 'model'), 'langgraph_checkpoint_ns': 'model:a3eb962a-1e33-0c86-0b51-174e1aa5884f', 'checkpoint_ns': 'model:a3eb962a-1e33-0c86-0b51-174e1aa5884f', 'ls_provider': 'openai', 'ls_model_name': 'deepseek-v4-flash', 'ls_model_type': 'chat', 'ls_temperature': None} chunks=[{'name': None, 'args': '{}', 'id': None, 'index': 0, 'type': 'tool_call_chunk'}]
+2026-06-10 18:21:14,475 INFO tool_result name=read_all_tags tool_call_id=call_00_uraIkmuMgzRsSVrRB4Ia1726 content=Current ICSSIM tag values:
+- tank_input_valve_status: 1.0
+- tank_input_valve_mode: 2.0
+- tank_level_value: 5.0833
+- tank_level_min: 3.0
+- tank_level_max: 7.0
+- tank_output_valve_status: 0.0
+- tank_output_valve_mode: 1.0
+- tank_output_flow_value: 0.0
+- conveyor_belt_engine_status: 0.0
+- conveyor_belt_engine_mode: 3.0
+- bottle_level_value: 1.28
+- bottle_level_max: 1.8
+- bottle_distance_to_filler_value: 0.5
+2026-06-10 18:21:18,504 INFO agent_token=✅
+2026-06-10 18:21:18,504 INFO agent_token= **
+2026-06-10 18:21:18,505 INFO agent_token=操作
+2026-06-10 18:21:18,505 INFO agent_token=全部
+2026-06-10 18:21:18,505 INFO agent_token=成功
+2026-06-10 18:21:18,548 INFO agent_token=完成
+2026-06-10 18:21:18,587 INFO agent_token=！
+2026-06-10 18:21:18,587 INFO agent_token=**
+2026-06-10 18:21:18,587 INFO agent_token= 
+2026-06-10 18:21:18,587 INFO agent_token=以下是
+2026-06-10 18:21:18,587 INFO agent_token=最终的
+2026-06-10 18:21:18,622 INFO agent_token=确认
+2026-06-10 18:21:18,661 INFO agent_token=结果
+2026-06-10 18:21:18,661 INFO agent_token=：
+
+
+2026-06-10 18:21:18,661 INFO agent_token=---
+
+
+2026-06-10 18:21:18,661 INFO agent_token=###
+2026-06-10 18:21:18,661 INFO agent_token= 
+2026-06-10 18:21:18,661 INFO agent_token=操作
+2026-06-10 18:21:18,694 INFO agent_token=结果
+2026-06-10 18:21:18,695 INFO agent_token=
+
+
+2026-06-10 18:21:18,695 INFO agent_token=|
+2026-06-10 18:21:18,695 INFO agent_token= 
+2026-06-10 18:21:18,695 INFO agent_token=阀门
+2026-06-10 18:21:18,732 INFO agent_token= |
+2026-06-10 18:21:18,732 INFO agent_token= 
+2026-06-10 18:21:18,732 INFO agent_token=操作
+2026-06-10 18:21:18,732 INFO agent_token= |
+2026-06-10 18:21:18,772 INFO agent_token= 
+2026-06-10 18:21:18,772 INFO agent_token=操作
+2026-06-10 18:21:18,806 INFO agent_token=前
+2026-06-10 18:21:18,806 INFO agent_token=状态
+2026-06-10 18:21:18,979 INFO agent_token= |
+2026-06-10 18:21:18,979 INFO agent_token= 
+2026-06-10 18:21:18,979 INFO agent_token=操作
+2026-06-10 18:21:18,979 INFO agent_token=后
+2026-06-10 18:21:18,979 INFO agent_token=状态
+2026-06-10 18:21:18,979 INFO agent_token= |
+2026-06-10 18:21:18,987 INFO agent_token= 
+2026-06-10 18:21:18,988 INFO agent_token=结果
+2026-06-10 18:21:18,988 INFO agent_token= |
+
+2026-06-10 18:21:18,989 INFO agent_token=|
+2026-06-10 18:21:18,989 INFO agent_token=:
+2026-06-10 18:21:18,990 INFO agent_token=---
+2026-06-10 18:21:18,990 INFO agent_token=:|
+2026-06-10 18:21:18,990 INFO agent_token=:
+2026-06-10 18:21:18,990 INFO agent_token=---
+2026-06-10 18:21:18,990 INFO agent_token=:|
+2026-06-10 18:21:18,990 INFO agent_token=:
+2026-06-10 18:21:18,990 INFO agent_token=---
+2026-06-10 18:21:18,990 INFO agent_token=:|
+2026-06-10 18:21:18,990 INFO agent_token=:
+2026-06-10 18:21:18,990 INFO agent_token=---
+2026-06-10 18:21:18,990 INFO agent_token=:|
+2026-06-10 18:21:18,990 INFO agent_token=:
+2026-06-10 18:21:18,990 INFO agent_token=---
+2026-06-10 18:21:19,011 INFO agent_token=:
+2026-06-10 18:21:19,011 INFO agent_token=|
+
+2026-06-10 18:21:19,011 INFO agent_token=|
+2026-06-10 18:21:19,011 INFO agent_token= 🔵
+2026-06-10 18:21:19,011 INFO agent_token= **
+2026-06-10 18:21:19,036 INFO agent_token=入
+2026-06-10 18:21:19,036 INFO agent_token=水
+2026-06-10 18:21:19,036 INFO agent_token=阀
+2026-06-10 18:21:19,036 INFO agent_token=**
+2026-06-10 18:21:19,036 INFO agent_token= |
+2026-06-10 18:21:19,036 INFO agent_token= **
+2026-06-10 18:21:19,095 INFO agent_token=打开
+2026-06-10 18:21:19,095 INFO agent_token=**
+2026-06-10 18:21:19,095 INFO agent_token= |
+2026-06-10 18:21:19,109 INFO agent_token= ❌
+2026-06-10 18:21:19,109 INFO agent_token= 
+2026-06-10 18:21:19,109 INFO agent_token=关闭
+2026-06-10 18:21:19,109 INFO agent_token= (
+2026-06-10 18:21:19,109 INFO agent_token=0
+2026-06-10 18:21:19,109 INFO agent_token=.
+2026-06-10 18:21:19,136 INFO agent_token=0
+2026-06-10 18:21:19,136 INFO agent_token=)
+2026-06-10 18:21:19,136 INFO agent_token= →
+2026-06-10 18:21:19,136 INFO agent_token= 
+2026-06-10 18:21:19,179 INFO agent_token=自动
+2026-06-10 18:21:19,180 INFO agent_token=模式
+2026-06-10 18:21:19,180 INFO agent_token= |
+2026-06-10 18:21:19,180 INFO agent_token= ✅
+2026-06-10 18:21:19,180 INFO agent_token= **
+2026-06-10 18:21:19,212 INFO agent_token=开启
+2026-06-10 18:21:19,213 INFO agent_token= (
+2026-06-10 18:21:19,213 INFO agent_token=1
+2026-06-10 18:21:19,213 INFO agent_token=.
+2026-06-10 18:21:19,213 INFO agent_token=0
+2026-06-10 18:21:19,213 INFO agent_token=)**
+2026-06-10 18:21:19,326 INFO agent_token= →
+2026-06-10 18:21:19,326 INFO agent_token= **
+2026-06-10 18:21:19,327 INFO agent_token=强制
+2026-06-10 18:21:19,327 INFO agent_token=开启
+2026-06-10 18:21:19,327 INFO agent_token=模式
+2026-06-10 18:21:19,327 INFO agent_token=**
+2026-06-10 18:21:19,327 INFO agent_token= |
+2026-06-10 18:21:19,327 INFO agent_token= ✅
+2026-06-10 18:21:19,327 INFO agent_token= 
+2026-06-10 18:21:19,338 INFO agent_token=成功
+2026-06-10 18:21:19,339 INFO agent_token= |
+
+2026-06-10 18:21:19,339 INFO agent_token=|
+2026-06-10 18:21:19,339 INFO agent_token= 🔴
+2026-06-10 18:21:19,357 INFO agent_token= **
+2026-06-10 18:21:19,358 INFO agent_token=出水
+2026-06-10 18:21:19,358 INFO agent_token=阀
+2026-06-10 18:21:19,358 INFO agent_token=**
+2026-06-10 18:21:19,358 INFO agent_token= |
+2026-06-10 18:21:19,358 INFO agent_token= **
+2026-06-10 18:21:19,394 INFO agent_token=关闭
+2026-06-10 18:21:19,394 INFO agent_token=**
+2026-06-10 18:21:19,394 INFO agent_token= |
+2026-06-10 18:21:19,394 INFO agent_token= ✅
+2026-06-10 18:21:19,395 INFO agent_token= 
+2026-06-10 18:21:19,395 INFO agent_token=开启
+2026-06-10 18:21:19,430 INFO agent_token= (
+2026-06-10 18:21:19,431 INFO agent_token=1
+2026-06-10 18:21:19,431 INFO agent_token=.
+2026-06-10 18:21:19,431 INFO agent_token=0
+2026-06-10 18:21:19,431 INFO agent_token=)
+2026-06-10 18:21:19,431 INFO agent_token= →
+2026-06-10 18:21:19,468 INFO agent_token= 
+2026-06-10 18:21:19,468 INFO agent_token=自动
+2026-06-10 18:21:19,468 INFO agent_token=模式
+2026-06-10 18:21:19,468 INFO agent_token= |
+2026-06-10 18:21:19,468 INFO agent_token= ❌
+2026-06-10 18:21:19,499 INFO agent_token= **
+2026-06-10 18:21:19,499 INFO agent_token=关闭
+2026-06-10 18:21:19,499 INFO agent_token= (
+2026-06-10 18:21:19,499 INFO agent_token=0
+2026-06-10 18:21:19,499 INFO agent_token=.
+2026-06-10 18:21:19,500 INFO agent_token=0
+2026-06-10 18:21:19,543 INFO agent_token=)**
+2026-06-10 18:21:19,543 INFO agent_token= →
+2026-06-10 18:21:19,543 INFO agent_token= **
+2026-06-10 18:21:19,543 INFO agent_token=强制
+2026-06-10 18:21:19,543 INFO agent_token=关闭
+2026-06-10 18:21:19,543 INFO agent_token=模式
+2026-06-10 18:21:19,577 INFO agent_token=**
+2026-06-10 18:21:19,577 INFO agent_token= |
+2026-06-10 18:21:19,577 INFO agent_token= ✅
+2026-06-10 18:21:19,577 INFO agent_token= 
+2026-06-10 18:21:19,577 INFO agent_token=成功
+2026-06-10 18:21:19,618 INFO agent_token= |
+
+
+2026-06-10 18:21:19,618 INFO agent_token=###
+2026-06-10 18:21:19,618 INFO agent_token= 
+2026-06-10 18:21:19,618 INFO agent_token=当前
+2026-06-10 18:21:19,618 INFO agent_token=系统
+2026-06-10 18:21:19,653 INFO agent_token=状态
+2026-06-10 18:21:19,654 INFO agent_token=
+
+2026-06-10 18:21:19,654 INFO agent_token=-
+2026-06-10 18:21:19,654 INFO agent_token= **
+2026-06-10 18:21:19,654 INFO agent_token=水箱
+2026-06-10 18:21:19,735 INFO agent_token=液
+2026-06-10 18:21:19,735 INFO agent_token=位
+2026-06-10 18:21:19,736 INFO agent_token=**
+2026-06-10 18:21:19,736 INFO agent_token=：
+2026-06-10 18:21:19,736 INFO agent_token=`
+2026-06-10 18:21:19,736 INFO agent_token=5
+2026-06-10 18:21:19,736 INFO agent_token=.
+2026-06-10 18:21:19,736 INFO agent_token=08
+2026-06-10 18:21:19,736 INFO agent_token=`
+2026-06-10 18:21:19,736 INFO agent_token=（
+2026-06-10 18:21:19,765 INFO agent_token=范围
+2026-06-10 18:21:19,765 INFO agent_token=：
+2026-06-10 18:21:19,804 INFO agent_token=3
+2026-06-10 18:21:19,804 INFO agent_token=.
+2026-06-10 18:21:19,804 INFO agent_token=0
+2026-06-10 18:21:19,839 INFO agent_token= ~
+2026-06-10 18:21:19,839 INFO agent_token= 
+2026-06-10 18:21:19,839 INFO agent_token=7
+2026-06-10 18:21:19,839 INFO agent_token=.
+2026-06-10 18:21:19,839 INFO agent_token=0
+2026-06-10 18:21:19,881 INFO agent_token=）
+
+2026-06-10 18:21:19,882 INFO agent_token=-
+2026-06-10 18:21:19,882 INFO agent_token= **
+2026-06-10 18:21:19,882 INFO agent_token=入
+2026-06-10 18:21:19,882 INFO agent_token=水
+2026-06-10 18:21:19,882 INFO agent_token=阀
+2026-06-10 18:21:19,882 INFO agent_token=状态
+2026-06-10 18:21:19,916 INFO agent_token=**
+2026-06-10 18:21:19,916 INFO agent_token=：
+2026-06-10 18:21:19,916 INFO agent_token=**
+2026-06-10 18:21:19,949 INFO agent_token=开启
+2026-06-10 18:21:19,950 INFO agent_token=**
+2026-06-10 18:21:19,950 INFO agent_token= ✅
+2026-06-10 18:21:19,950 INFO agent_token=（
+2026-06-10 18:21:20,023 INFO agent_token=强制
+2026-06-10 18:21:20,040 INFO agent_token=开启
+2026-06-10 18:21:20,040 INFO agent_token=模式
+2026-06-10 18:21:20,072 INFO agent_token=）
+
+2026-06-10 18:21:20,072 INFO agent_token=-
+2026-06-10 18:21:20,072 INFO agent_token= **
+2026-06-10 18:21:20,072 INFO agent_token=出水
+2026-06-10 18:21:20,072 INFO agent_token=阀
+2026-06-10 18:21:20,072 INFO agent_token=状态
+2026-06-10 18:21:20,168 INFO agent_token=**
+2026-06-10 18:21:20,169 INFO agent_token=：
+2026-06-10 18:21:20,169 INFO agent_token=**
+2026-06-10 18:21:20,171 INFO agent_token=关闭
+2026-06-10 18:21:20,171 INFO agent_token=**
+2026-06-10 18:21:20,171 INFO agent_token= ✅
+2026-06-10 18:21:20,171 INFO agent_token=（
+2026-06-10 18:21:20,171 INFO agent_token=强制
+2026-06-10 18:21:20,172 INFO agent_token=关闭
+2026-06-10 18:21:20,172 INFO agent_token=模式
+2026-06-10 18:21:20,172 INFO agent_token=）
+
+2026-06-10 18:21:20,172 INFO agent_token=-
+2026-06-10 18:21:20,172 INFO agent_token= **
+2026-06-10 18:21:20,172 INFO agent_token=出水
+2026-06-10 18:21:20,172 INFO agent_token=流量
+2026-06-10 18:21:20,172 INFO agent_token=**
+2026-06-10 18:21:20,172 INFO agent_token=：
+2026-06-10 18:21:20,172 INFO agent_token=`
+2026-06-10 18:21:20,261 INFO agent_token=0
+2026-06-10 18:21:20,261 INFO agent_token=.
+2026-06-10 18:21:20,261 INFO agent_token=0
+2026-06-10 18:21:20,261 INFO agent_token=`
+2026-06-10 18:21:20,262 INFO agent_token=（
+2026-06-10 18:21:20,262 INFO agent_token=已
+2026-06-10 18:21:20,280 INFO agent_token=停止
+2026-06-10 18:21:20,319 INFO agent_token=出水
+2026-06-10 18:21:20,319 INFO agent_token=）
+
+
+2026-06-10 18:21:20,320 INFO agent_token=现在
+2026-06-10 18:21:20,320 INFO agent_token=水箱
+2026-06-10 18:21:20,367 INFO agent_token=正在
+2026-06-10 18:21:20,367 INFO agent_token=通过
+2026-06-10 18:21:20,403 INFO agent_token=入
+2026-06-10 18:21:20,403 INFO agent_token=水
+2026-06-10 18:21:20,403 INFO agent_token=阀
+2026-06-10 18:21:20,403 INFO agent_token=进水
+2026-06-10 18:21:20,454 INFO agent_token=，
+2026-06-10 18:21:20,454 INFO agent_token=而出
+2026-06-10 18:21:20,530 INFO agent_token=水
+2026-06-10 18:21:20,531 INFO agent_token=阀
+2026-06-10 18:21:20,531 INFO agent_token=已
+2026-06-10 18:21:20,531 INFO agent_token=关闭
+2026-06-10 18:21:20,531 INFO agent_token=不再
+2026-06-10 18:21:20,577 INFO agent_token=出水
+2026-06-10 18:21:20,606 INFO agent_token=，
+2026-06-10 18:21:20,606 INFO agent_token=水箱
+2026-06-10 18:21:20,627 INFO agent_token=液
+2026-06-10 18:21:20,661 INFO agent_token=位
+2026-06-10 18:21:20,661 INFO agent_token=将会
+2026-06-10 18:21:20,661 INFO agent_token=逐渐
+2026-06-10 18:21:20,701 INFO agent_token=上升
+2026-06-10 18:21:20,701 INFO agent_token=。
+2026-06-10 18:21:20,701 INFO agent_token=如果需要
+2026-06-10 18:21:20,736 INFO agent_token=恢复
+2026-06-10 18:21:20,773 INFO agent_token=自动
+2026-06-10 18:21:20,773 INFO agent_token=控制
+2026-06-10 18:21:20,814 INFO agent_token=模式
+2026-06-10 18:21:20,847 INFO agent_token=，
+2026-06-10 18:21:20,848 INFO agent_token=随时
+2026-06-10 18:21:20,848 INFO agent_token=告诉我
+2026-06-10 18:21:20,888 INFO agent_token=！
+2026-06-10 18:21:20,928 INFO agent_token=😊
