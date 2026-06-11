@@ -1,8 +1,6 @@
 """Interactive LangGraph agent for supervising ICSSIM."""
 
-import logging
 import os
-from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
@@ -22,29 +20,12 @@ from ics_tools import (
 )
 
 
-def _build_logger() -> logging.Logger:
-    logger = logging.getLogger("ira_guard_agent")
-    if logger.handlers:
-        return logger
-
-    logger.setLevel(logging.INFO)
-    log_path = Path(__file__).with_name("agent_run.log")
-    handler = logging.FileHandler(log_path, mode="a", encoding="utf-8")
-    handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
-    logger.addHandler(handler)
-    return logger
-
-
-LOGGER = _build_logger()
-
-
 SYSTEM_PROMPT = SystemMessage(
     content=(
         "You are an ICS supervisory control agent for a bottle-filling factory "
         "simulation (ICSSIM).\n"
         "You can read sensor values and send control commands to PLCs via the "
         "provided tools.\n"
-        "Always read the current state before issuing any write command.\n"
         "Mode values: 1 = Force OFF, 2 = Force ON, 3 = Auto (PLC-controlled)."
     )
 )
@@ -91,7 +72,6 @@ def _chunk_to_text(chunk: AIMessageChunk) -> str:
 
 def stream_agent_response(agent, user_input: str, config: dict) -> None:
     """Stream one agent response to stdout as tokens arrive."""
-    LOGGER.info("operator_input=%s", user_input)
     print("Agent: ", end="", flush=True)
     printed_any_token = False
 
@@ -101,12 +81,6 @@ def stream_agent_response(agent, user_input: str, config: dict) -> None:
         stream_mode="messages",
     ):
         if isinstance(chunk, ToolMessage):
-            LOGGER.info(
-                "tool_result name=%s tool_call_id=%s content=%s",
-                chunk.name,
-                chunk.tool_call_id,
-                chunk.content,
-            )
             continue
 
         if not isinstance(chunk, AIMessageChunk):
@@ -114,14 +88,13 @@ def stream_agent_response(agent, user_input: str, config: dict) -> None:
 
         tool_call_chunks = getattr(chunk, "tool_call_chunks", None)
         if tool_call_chunks:
-            LOGGER.info("tool_call_chunks metadata=%s chunks=%s", metadata, tool_call_chunks)
+            continue
 
         text = _chunk_to_text(chunk)
         if not text:
             continue
 
         printed_any_token = True
-        LOGGER.info("agent_token=%s", text)
         print(text, end="", flush=True)
 
     if not printed_any_token:
